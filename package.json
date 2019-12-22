@@ -1,0 +1,17 @@
+{
+  "name": "@mhoc/aws-cred-report",
+  "version": "0.0.1",
+  "description": "helper library for generating aws credential reports",
+  "main": "dist/index",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.595.0",
+    "csv-parse": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.21",
+    "typescript": "^3.7.4"
+  }
+}
