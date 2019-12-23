@@ -1,5 +1,7 @@
 # AWSCredReport
 
+[![npm version](https://badge.fury.io/js/%40mhoc%2Faws-cred-report.svg)](https://badge.fury.io/js/%40mhoc%2Faws-cred-report)
+
 This is a small TS library which wraps the aws-sdk to assist in generating AWS Credential Reports.
 
 ## What's Wrong With the AWS-SDK?
