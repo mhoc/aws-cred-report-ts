@@ -5,7 +5,9 @@
   "description": "helper library for generating aws credential reports",
   "main": "dist/index",
   "scripts": {
-    "build": "./node_modules/.bin/tsc"
+    "build": "./node_modules/.bin/tsc",
+    "build-docs": "./node_modules/.bin/typedoc --out docs",
+    "docs": "npm run build-docs && cd docs && python -m SimpleHTTPServer"
   },
   "dependencies": {
     "aws-sdk": "^2.595.0",
@@ -13,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.21",
+    "typedoc": "^0.15.5",
     "typescript": "^3.7.4"
   }
 }
