@@ -1,6 +1,7 @@
 {
   "name": "@mhoc/aws-cred-report",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "license": "MIT",
   "description": "helper library for generating aws credential reports",
   "main": "dist/index",
   "scripts": {
