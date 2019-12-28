@@ -7,7 +7,7 @@ This is a small TS library which wraps the aws-sdk to assist in generating AWS C
 
 ## What's Wrong With the AWS-SDK?
 
-Well, nothing, but it could be made easier to work with.
+Nothing; but it could be made easier to work with.
 
 First, the SDK includes two methods to create credential reports: `GenerateCredentialReport` and
 `GetCredentialReport`. Its an asynchronous operation, and while the time between generation and

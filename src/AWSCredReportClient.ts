@@ -4,6 +4,9 @@ import * as csv from "csv-parse";
 import { CredentialReport } from "./CredentialReport";
 import { User } from "./User";
 
+/**
+ * Client which contains a method to generate a credential report.
+ */
 export class AWSCredReportClient {
   private readonly iam: IAM;
   
@@ -11,6 +14,13 @@ export class AWSCredReportClient {
     this.iam = new IAM();
   }
 
+  /**
+   * Generate and fetch a credential report.
+   * 
+   * This method will retry the credential report generation process five times, with a 500ms delay
+   * between each call. If the report is not generated after five times, it will throw an error with
+   * the text "retry timeout". We may have to tweak this if it doesn't work for larger AWS accounts.
+   */
   public async getCredentialReport(): Promise<CredentialReport> {
     for (let retry = 0; retry < 5; retry++) {
       const { State } = await this.iam.generateCredentialReport().promise();

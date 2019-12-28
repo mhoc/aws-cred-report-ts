@@ -1346,16 +1346,16 @@
         "signature": "9b54cb00e2404ac5635769b9e2e37b6ff4782b3bbce951071e31d1de57930891"
       },
       "../src/user.ts": {
-        "version": "fdd61f7f8a2a3acb92fe391d660534f7e381b4dcb5aa135f0855d01e76061353",
-        "signature": "fb0926206c368b824f481f7c517d9c3c8bd3848bf8daa93c67d608f8d82b4905"
+        "version": "a6f59f6fc3c3a4067e0635fdb207cb2e78feee60c751c721321c21af426f81e0",
+        "signature": "d1162cda377efeb5756818e6bee22216be71694d8d43012240d5be7854cbdad3"
       },
       "../src/credentialreport.ts": {
-        "version": "62ff4c62154b2cd6b3102207c84145474b0756882bfad415e2857e224bdfab6a",
-        "signature": "28c69013cd80dcac5bcb5483603ba7a3715aa8d10cb293d25d38efe32f5875af"
+        "version": "1ace4dbf7ff6f0687c98f6367a2f1aafb67bfb645a13c891e78926919646974b",
+        "signature": "89a1fd0d58d35347f17378195ce21e82bcab976d3de2c0b65eee5af37b28be51"
       },
       "../src/awscredreportclient.ts": {
-        "version": "94b759e62253f7bb76a232c8ddce7f6dc3f4f824c5ba92f1cebd93bad2da52cb",
-        "signature": "dfba867ec562527f695ae9440ce85c16814c03c5ac5d959ee1f250c718bf9fd6"
+        "version": "1b6aeefdb281f792bf775ded2fe2782763348eefc8e41f40580738f191e6bca7",
+        "signature": "faab2ed5830951b1aaca79468bcb04275d53eb0b7a4be923edba464b68666563"
       },
       "../src/index.ts": {
         "version": "eaeb52c57eabf477cf646520731245c89a4845b6521422f81a51d38de0d6cea9",
@@ -8532,13 +8532,13 @@
       "../src/credentialreport.ts": [
         "../src/user.ts"
       ],
+      "../src/awscredreportclient.ts": [
+        "../src/credentialreport.ts"
+      ],
       "../src/index.ts": [
         "../src/awscredreportclient.ts",
         "../src/credentialreport.ts",
         "../src/user.ts"
-      ],
-      "../src/awscredreportclient.ts": [
-        "../src/credentialreport.ts"
       ],
       "../node_modules/@types/minimatch/index.d.ts": [
         "../node_modules/@types/node/fs.d.ts",
@@ -8884,11 +8884,11 @@
       "../node_modules/@types/node/ts3.2/globals.d.ts",
       "../node_modules/@types/node/ts3.2/index.d.ts",
       "../node_modules/csv-parse/lib/index.d.ts",
+      "../node_modules/@types/minimatch/index.d.ts",
       "../src/user.ts",
-      "../src/credentialreport.ts",
       "../src/awscredreportclient.ts",
-      "../src/index.ts",
-      "../node_modules/@types/minimatch/index.d.ts"
+      "../src/credentialreport.ts",
+      "../src/index.ts"
     ]
   },
   "version": "3.7.4"
