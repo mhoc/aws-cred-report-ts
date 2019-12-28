@@ -1,7 +1,7 @@
 # AWSCredReport
 
-[![npm](https://img.shields.io/badge/npm-0.0.3-yellow)](https://www.npmjs.com/package/@mhoc/aws-cred-report)
-[![docs](https://img.shields.io/badge/documentation-0.0.3-blue)](https://mike.hockerman.com/docs/aws-cred-report-ts)
+[![npm](https://img.shields.io/badge/npm-0.1.0-yellow)](https://www.npmjs.com/package/@mhoc/aws-cred-report)
+[![docs](https://img.shields.io/badge/documentation-0.1.0-blue)](https://aws-cred-report-ts.mhoc.co/)
 
 This is a small TS library which wraps the aws-sdk to assist in generating AWS Credential Reports.
 
