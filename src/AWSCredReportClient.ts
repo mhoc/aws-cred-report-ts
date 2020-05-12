@@ -30,7 +30,7 @@ export class AWSCredReportClient {
       if (retry === 4) {
         throw new Error("retry timeout");
       }
-      await new Promise(r => setTimeout(r, 500));
+      await new Promise(r => setTimeout(r, 1000 * (retry + 1)));
     }
     const { Content, GeneratedTime, ReportFormat } = await this.iam.getCredentialReport().promise();
     if (!GeneratedTime) {
