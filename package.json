@@ -1,6 +1,6 @@
 {
   "name": "@mhoc/aws-cred-report",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "helper library for generating aws credential reports",
   "main": "dist/index",
@@ -10,12 +10,12 @@
     "docs": "npm run build-docs && cd docs && python -m SimpleHTTPServer"
   },
   "dependencies": {
-    "aws-sdk": "^2.596.0",
-    "csv-parse": "^4.8.3"
+    "aws-sdk": "^2.675.0",
+    "csv-parse": "^4.9.1"
   },
   "devDependencies": {
-    "@types/node": "^12.12.22",
-    "typedoc": "^0.15.6",
-    "typescript": "^3.7.4"
+    "@types/node": "^12.12.38",
+    "typedoc": "^0.15.8",
+    "typescript": "^3.8.3"
   }
 }
