@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/badge/npm-0.5.0-yellow)](https://www.npmjs.com/package/@mhoc/aws-cred-report)
 [![docs](https://img.shields.io/badge/documentation-0.5.0-blue)](https://aws-cred-report-ts.mhoc.co/)
 
-This is a small TS library which wraps the aws-sdk to assist in generating AWS Credential Reports.
+This is a small TS library which wraps the aws-sdk to assist in generating AWS Credential Reports
 
 ## What's Wrong With the AWS-SDK?
 
